@@ -1,0 +1,236 @@
+.c1{
+    background-color:rgb(0, 0, 0)
+}
+.c2{
+    background-color:rgb(216, 3, 192)
+}
+.c3{
+    background-color:rgb(81, 0, 72)
+}
+
+
+.c11{
+    background-color:rgb(255, 255, 255)
+}
+.c22{
+    background-color:rgb(0, 0, 0)
+}
+.c33{
+    background-color:rgb(255, 204, 0)
+}
+.c44{
+    background-color:rgb(222, 153, 3)
+}
+.c55{
+    background-color:rgb(228, 0, 0)
+}
+ 
+
+.c111{
+    background-color:rgb(255, 149, 236)
+}
+.c222{
+    background-color:rgb(1, 1, 1)
+}
+.c333{
+    background-color:rgb(255, 255, 255)
+}
+
+
+
+
+
+
+.c4{
+    background-color:rgb(43, 194, 63)
+}
+.c5{
+    background-color:rgb(0, 4, 1)
+}
+.c6{
+    background-color:rgb(10, 126, 6)
+}
+.c7{
+    background-color:rgb(51, 172, 82)
+}
+.c8{
+    background-color:rgb(213, 219, 191)
+}
+
+#p1{
+    color:red
+}
+#p2{
+    color:blue
+}
+
+td{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.c1111{
+    background-color:rgb(57, 131, 201)
+}
+.c2222{
+    background-color:rgb(255, 254, 255)
+}
+.c3333{
+    background-color:rgb(177, 126, 67)
+}
+
+.c4444{
+    background-color:rgb(7, 7, 7)
+}
+.c5555{
+    background-color:rgb(217, 42, 150)
+}
+.c6666{
+    background-color:rgb(255, 149, 236)
+}
+
+
+
+
+
+
+
+
+
+
+
+.c11111{
+    background-color:rgb(245, 246, 248)
+}
+.c22222{
+    background-color:rgb(203, 178, 133)
+}
+.c33333{
+    background-color:rgb(0, 0, 0)
+}
+
+.c44444{
+    background-color:rgb(255, 90, 183)
+}
+.c55555{
+    background-color:rgb(254, 123, 204)
+}
+
+
+
+
+.c10{
+    background-color:rgb(161, 161, 161)
+}
+.c20{
+    background-color:rgb(255, 254, 254)
+}
+.c30{
+    background-color:rgb(0, 0, 0)
+}
+.c40{
+    background-color:rgb(102, 61, 0)
+}
+.c50{
+    background-color:rgb(194, 170, 95)
+}
+
+
+
+
+
+
+
+
+
+.c4040{
+    background-color:rgb(8, 227, 38)
+}
+.c5050{
+    background-color:rgb(0, 4, 1)
+}
+.c6060{
+    background-color:rgb(62, 222, 9)
+}
+.c7070{
+    background-color:rgb(0, 255, 64)
+}
+.c8080{
+    background-color:rgb(238, 255, 186)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #202124;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 35px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #333;
+}
+
+@media (max-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
